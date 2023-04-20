@@ -19,9 +19,9 @@ def apiCall(url: str):
         response = requests.get(
             url, headers={"X-Riot-Token": riot_api_key})
         if response.status_code == 429:  # API limit reached
-            print("API limit reached. Pausing for 20 seconds...")
+            print("API limit reached. Pausing for 60 seconds...")
             reqCount = 0
-            time.sleep(20)  # Pause for 20 seconds
+            time.sleep(60)  # Pause for 60 seconds
         else:
             api_limit_reached = False  # Exit the loop
 
@@ -63,3 +63,17 @@ while not summonerPuuidQueue.empty():
 
 f = open("matches.json", "w")
 f.write(json.dumps(list(matchSet)))
+matchIdsQueue = Queue()
+
+for matchId in matchSet:
+    matchIdsQueue.put(matchId)
+matchList = list([])
+while not matchIdsQueue.empty():
+    matchId = matchIdsQueue.get()
+    matchJson = apiCall(
+        "https://americas.api.riotgames.com/tft/match/v1/matches/" + matchId)
+    matchList.append(matchJson)
+    f = open("matches.json", "w")
+    f.write(json.dumps(matchList))
+
+   
