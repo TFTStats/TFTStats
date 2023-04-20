@@ -7,21 +7,23 @@ import json
 
 reqCount = 0
 
+
+# Creates a session with the api key
+session = requests.Session()
+session.headers.update({"X-Riot-Token": riot_api_key})
 # calls riot api with a url and returns the json response
-
-
 def apiCall(url: str):
     global reqCount
     reqCount += 1
     print("request count: " + str(reqCount))
     api_limit_reached = True
     while api_limit_reached:
-        response = requests.get(
-            url, headers={"X-Riot-Token": riot_api_key})
+        response = session.get(
+            url)
         if response.status_code == 429:  # API limit reached
-            print("API limit reached. Pausing for 20 seconds...")
+            print("API limit reached. Pausing for 60 seconds...")
             reqCount = 0
-            time.sleep(20)  # Pause for 20 seconds
+            time.sleep(60)  # Pause for 60 seconds
         else:
             api_limit_reached = False  # Exit the loop
 
@@ -56,8 +58,9 @@ while not summonerIdQueue.empty():
 print("getting every match and placing them into a set")
 matchSet = set({})
 while not summonerPuuidQueue.empty():
-    matchJson = apiCall(
-        "https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/" + summonerPuuidQueue.get() + "/ids?count=20")
+    print(f'https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerPuuidQueue.get()}/ids?start=0&endTime={int(time.time() )}&startTime={int(time.time()  - 86400000 )}&count=20')
+    matchJson = apiCall(f'https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerPuuidQueue.get()}/ids?start=0&endTime={int(time.time() )}&startTime={int(time.time() - 86400000 )}&count=20')
+    print(matchJson)
     for matchId in matchJson:
         matchSet.add(matchId)
 

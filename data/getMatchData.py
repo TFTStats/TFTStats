@@ -5,6 +5,8 @@ from queue import Queue
 import json
 
 reqCount = 0
+session = requests.Session()
+session.headers.update({"X-Riot-Token": riot_api_key})
 
 def apiCall(url: str):
     global reqCount
@@ -12,8 +14,7 @@ def apiCall(url: str):
     print("request count: " + str(reqCount))
     api_limit_reached = True
     while api_limit_reached:
-        response = requests.get(
-            url, headers={"X-Riot-Token": riot_api_key})
+        response = session.get(url)
         if response.status_code == 429:  # API limit reached
             print("API limit reached. Pausing for 60 seconds...")
             reqCount = 0
