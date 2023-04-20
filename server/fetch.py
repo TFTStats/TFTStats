@@ -1,5 +1,5 @@
 # imports api key from config
-from config import riot_api_key
+from server.config import riot_api_key
 import time
 import requests
 from queue import Queue
