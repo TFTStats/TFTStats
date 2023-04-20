@@ -58,9 +58,10 @@ while not summonerIdQueue.empty():
 print("getting every match and placing them into a set")
 matchSet = set({})
 while not summonerPuuidQueue.empty():
-    print(f'https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerPuuidQueue.get()}/ids?start=0&endTime={int(time.time() )}&startTime={int(time.time()  - 86400000 )}&count=20')
-    matchJson = apiCall(f'https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerPuuidQueue.get()}/ids?start=0&endTime={int(time.time() )}&startTime={int(time.time() - 86400000 )}&count=20')
+    print(f'https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerPuuidQueue.get()}/ids?start=0&endTime={int(time.time())}&startTime={int(time.time()  - 86400 )}&count=20')
+    matchJson = apiCall(f'https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerPuuidQueue.get()}/ids?start=0&endTime={int(time.time())}&startTime={int(time.time() - 86400 )}&count=20')
     print(matchJson)
+    print(len(matchJson))
     for matchId in matchJson:
         matchSet.add(matchId)
 
