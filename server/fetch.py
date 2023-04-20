@@ -1,5 +1,5 @@
 # imports api key from config
-from server.config import riot_api_key
+from config import riot_api_key
 import time
 import requests
 from queue import Queue
@@ -31,17 +31,17 @@ def apiCall(url: str):
 print("grabbing players")
 summonerIdQueue = Queue()
 playerJson = apiCall(
-    "https://na1.api.riotgames.com/tft/league/v1/challenger")
+    "https://euw1.api.riotgames.com/tft/league/v1/challenger")
 for summoner in playerJson.get("entries"):
     summonerIdQueue.put(summoner.get("summonerId"))
 
 playerJson = apiCall(
-    "https://na1.api.riotgames.com/tft/league/v1/grandmaster")
+    "https://euw1.api.riotgames.com/tft/league/v1/grandmaster")
 for summoner in playerJson.get("entries"):
     summonerIdQueue.put(summoner.get("summonerId"))
 
 playerJson = apiCall(
-    "https://na1.api.riotgames.com/tft/league/v1/master")
+    "https://euw1.api.riotgames.com/tft/league/v1/master")
 for summoner in playerJson.get("entries"):
     summonerIdQueue.put(summoner.get("summonerId"))
 
@@ -49,7 +49,7 @@ print("getting every puuid")
 summonerPuuidQueue = Queue()
 while not summonerIdQueue.empty():
     summonerJson = apiCall(
-        "https://na1.api.riotgames.com/tft/summoner/v1/summoners/" + summonerIdQueue.get())
+        "https://euw1.api.riotgames.com/tft/summoner/v1/summoners/" + summonerIdQueue.get())
     print(summonerJson.get("puuid"))
     summonerPuuidQueue.put(summonerJson.get("puuid"))
 
@@ -57,7 +57,7 @@ print("getting every match and placing them into a set")
 matchSet = set({})
 while not summonerPuuidQueue.empty():
     matchJson = apiCall(
-        "https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/" + summonerPuuidQueue.get() + "/ids?count=20")
+        "https://europe.api.riotgames.com/tft/match/v1/matches/by-puuid/" + summonerPuuidQueue.get() + "/ids?count=20")
     for matchId in matchJson:
         matchSet.add(matchId)
 
@@ -71,7 +71,7 @@ matchList = list([])
 while not matchIdsQueue.empty():
     matchId = matchIdsQueue.get()
     matchJson = apiCall(
-        "https://americas.api.riotgames.com/tft/match/v1/matches/" + matchId)
+        "https://europe.api.riotgames.com/tft/match/v1/matches/" + matchId)
     matchList.append(matchJson)
     f = open("matches.json", "w")
     f.write(json.dumps(matchList))
