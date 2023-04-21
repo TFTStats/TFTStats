@@ -9,6 +9,7 @@ data = json.loads(f.read())
 traits = list(["Set8_Ace","Set8_Admin","Set8_AnimaSquad","Set8_Duelist","Set8_Corrupted","Set8_Defender","Set8_ExoPrime","Set8_Forecaster","Set8_GenAE","Set8_Deadeye","Set8_Hacker","Set8_Heart","Set8_Channeler","Set8_Mascot","Set8_OxForce","Set8_Brawler","Set8_Prankster","Set8_Renegade","Set8_SpaceCorps","Set8_StarGuardian","Set8_Supers","Set8_Threat","Set8_UndergroundThe","Set8_Aegis","Set8_Pulsefire","Set8_Parallel","Set8_Riftwalker","Set8_GunMage"])
 # How many matches are in the data set
 length = len(data)
+print("Total matches: " + str(length))
 # Missing Analysis for tier traits 
 
 # Loop through each trait and find the amount of matches that have that trait
