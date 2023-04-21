@@ -36,7 +36,7 @@ for match in matchSet:
 print("getting every match and placing them into a set")
 matchSet = list([])
 # Added a limit to the number of matches to get t o prevent the script from running for too long
-while not matchIdQueue.empty() and len(matchSet) < 1000:
+while not matchIdQueue.empty() and len(matchSet) < 100:
     matchJson = apiCall(
         "https://americas.api.riotgames.com/tft/match/v1/matches/" + matchIdQueue.get())
     matchSet.append(matchJson)
