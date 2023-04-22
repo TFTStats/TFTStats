@@ -18,6 +18,8 @@ for trait in traits:
     # placement = list([]) 
     amount = []
     placement =[]
+    top1 =[]
+    top4 =[]
     # Loop through each match
     for index,  match in enumerate(data):
         match_info = match.get("info")
@@ -36,16 +38,23 @@ for trait in traits:
                         if(len(amount) < userTrait.get("tier_total")  ):
                             amount.append(0)
                             placement.append([])
-                        # amount.append(0)
-                        # placement.append([])
+                            top1.append(0)
+                            top4.append(0)
+                    
                     # Add the + 1 to the right tier and add the placement to the right tier
                     for tier in range(0, userTrait.get("tier_current")):
                         amount[userTrait.get("tier_current") - 1] += 1
                         placement[userTrait.get("tier_current") - 1] .append(participant.get("placement"))
+                        if participant.get("placement") == 1:
+                            top1[userTrait.get("tier_current") - 1] += 1
+                        if participant.get("placement") <= 4:
+                            top4[userTrait.get("tier_current") - 1] += 1
 # Print the amount of matches that have the trait and the average placement of the trait for each tier                        
     for i in range(0, len(amount)):
         print("Amount of "+ trait + " matches: " + str(amount[i]/8)+ " out of " + str(length) + " matches" + " for tier " + str(i + 1))
         print("Average placement: " + str(sum(placement[i])/len(placement[i])))
+        print("Top 1: " + str((top1[i] / length)* 100) + "%")
+        print("Top 4: " + str((top4[i] / length)* 100) + "%")
                         
                         
     # print("Amount of "+ trait + " matches: " + str(amount/8)+ " out of " + str(length) + " matches")
