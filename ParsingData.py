@@ -10,7 +10,7 @@ traits = list(["Set8_Ace","Set8_Admin","Set8_AnimaSquad","Set8_Duelist","Set8_Co
 # How many matches are in the data set
 length = len(data)
 print("Total matches: " + str(length))
-# Missing Analysis for tier traits 
+
 
 # Loop through each trait and find the amount of matches that have that trait
 for trait in traits:
