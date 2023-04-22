@@ -14,17 +14,39 @@ print("Total matches: " + str(length))
 
 # Loop through each trait and find the amount of matches that have that trait
 for trait in traits:
-    amount = 0
-    placement = list([])
+    # amount = 0
+    # placement = list([]) 
+    amount = []
+    placement =[]
+    # Loop through each match
     for index,  match in enumerate(data):
         match_info = match.get("info")
 
         participants = match_info.get("participants")
+        # Loop through each participant in the match
         for participant in participants:
             userTraits = participant.get("traits")
+            # Loop through each trait the participant has
             for userTrait in userTraits:
-                if userTrait.get("name") == trait:
-                    amount += 1
-                    placement.append(participant.get("placement"))
-    print("Amount of "+ trait + " matches: " + str(amount/8)+ " out of " + str(length) + " matches")
-    print("Average placement: " + str(sum(placement)/len(placement)))
+                # Check if the trait is the one we are looking for and if the trait is active 0 = not active
+                if userTrait.get("name") == trait and userTrait.get("tier_current") != 0  :
+                # Create a list for each tier and add the placement of the participant to the list
+                    for tiers in range(0, userTrait.get("tier_total")):
+                        # Make sure this Code only runs once  per trait 
+                        if(len(amount) < userTrait.get("tier_total")  ):
+                            amount.append(0)
+                            placement.append([])
+                        # amount.append(0)
+                        # placement.append([])
+                    # Add the + 1 to the right tier and add the placement to the right tier
+                    for tier in range(0, userTrait.get("tier_current")):
+                        amount[userTrait.get("tier_current") - 1] += 1
+                        placement[userTrait.get("tier_current") - 1] .append(participant.get("placement"))
+# Print the amount of matches that have the trait and the average placement of the trait for each tier                        
+    for i in range(0, len(amount)):
+        print("Amount of "+ trait + " matches: " + str(amount[i]/8)+ " out of " + str(length) + " matches" + " for tier " + str(i + 1))
+        print("Average placement: " + str(sum(placement[i])/len(placement[i])))
+                        
+                        
+    # print("Amount of "+ trait + " matches: " + str(amount/8)+ " out of " + str(length) + " matches")
+    # print("Average placement: " + str(sum(placement)/len(placement)))
