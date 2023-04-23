@@ -12,6 +12,15 @@ user = "neo4j"
 password = neo4j_password
 
 for match in data :
+    for participant in match["info"]["participants"]:
+        newAugments = []
+        for index, augments in enumerate(participant["augments"]):
+            AugmentInfo ={
+                "name": augments,
+                "selected": index + 1,
+            }
+            newAugments.append(AugmentInfo)
+        participant["augments"] = newAugments 
     if(match["info"]["game_version"][12:13] == "."):
         match["info"]["game_version"] = match["info"]["game_version"][:12]
     else:
@@ -50,14 +59,45 @@ def ingest_tft_match(session, match_data):
     result = session.run(query, matchData=match_data)
     
     
+def ingest_tft_Augments(session, match_data):
+    query = '''
+    WITH $matchData AS matchData
     
+    UNWIND matchData.info.participants AS participant
+    MATCH  (game:Game {match_ID: matchData.metadata.match_id}) <-[:PLAYED_IN_THIS_MATCH] - (player:PLAYER {puuid: participant.puuid})
+    Where game is not null and player is not null
+    with game, player, participant
+    UNWIND participant.augments AS augment
+    CREATE (a:AUGMENT {augment_Name: augment.name, augment_selected: augment.selected})
+    CREATE (player) - [:HAS_THIS_AUGMENT] -> (a)
+    '''
+    print("Executing query with match data:")
     
-
+    result = session.run(query, matchData=match_data)    
+    
+def ingest_tft_Traits(session, match_data):
+    query = '''
+    WITH $matchData AS matchData
+    
+    UNWIND matchData.info.participants AS participant
+    MATCH  (game:Game {match_ID: matchData.metadata.match_id}) <-[:PLAYED_IN_THIS_MATCH] - (player:PLAYER {puuid: participant.puuid})
+    Where game is not null and player is not null
+    with game, player, participant
+    UNWIND participant.traits AS trait
+    CREATE (t:TRAIT {trait_Name: trait.name, trait_num_units: trait.num_units, trait_tier_current: trait.tier_current, trait_tier_total: trait.tier_total})
+    CREATE (player) - [:HAS_THIS_TRAIT] -> (t)
+    '''
+    print("Executing query with match data:")
+    
+    result = session.run(query, matchData=match_data)   
+    
 # Replace this with your actual match data JSON object
 
 
 with driver.session() as session:
     for match_data in data:
         ingest_tft_match(session, match_data)
+        ingest_tft_Augments(session, match_data)
+        ingest_tft_Traits(session, match_data)
 
 driver.close()
