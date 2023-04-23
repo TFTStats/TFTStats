@@ -24,7 +24,7 @@ def apiCall(url: str):
 
     return response.json()
 
-f = open("matches.json","r")
+f = open("matchesEU.json","r")
 
 matchSet = json.loads(f.read())
 f.close()
@@ -36,11 +36,11 @@ for match in matchSet:
 print("getting every match and placing them into a set")
 matchSet = list([])
 # Added a limit to the number of matches to get t o prevent the script from running for too long
-while not matchIdQueue.empty() and len(matchSet) < 100:
+while not matchIdQueue.empty() and len(matchSet) < 300:
     matchJson = apiCall(
-        "https://americas.api.riotgames.com/tft/match/v1/matches/" + matchIdQueue.get())
+        "https://europe.api.riotgames.com/tft/match/v1/matches/" + matchIdQueue.get())
     matchSet.append(matchJson)
     print(len(matchSet))
 
-f = open("matchData.json", "w")
+f = open("matchDataEU.json", "w")
 f.write(json.dumps(list(matchSet)))
