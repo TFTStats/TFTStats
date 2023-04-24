@@ -1,0 +1,471 @@
+[
+  {
+    "id": "Set8_Ace",
+    "tier1": {
+      "amount": 40367,
+      "playRate": 3.9983161648177497,
+      "averagePlacement": 4.112195605321178
+    },
+    "tier2": {
+      "amount": 1722,
+      "playRate": 0.17056259904912838,
+      "averagePlacement": 4.215447154471545
+    }
+  },
+  {
+    "id": "Set8_Admin",
+    "tier1": {
+      "amount": 10360,
+      "playRate": 1.026148969889065,
+      "averagePlacement": 4.463610038610039
+    },
+    "tier2": {
+      "amount": 3531,
+      "playRate": 0.34974247226624405,
+      "averagePlacement": 4.581421693571226
+    },
+    "tier3": {
+      "amount": 590,
+      "playRate": 0.05843898573692551,
+      "averagePlacement": 4.884745762711864
+    }
+  },
+  {
+    "id": "Set8_AnimaSquad",
+    "tier1": {
+      "amount": 1244,
+      "playRate": 0.12321711568938193,
+      "averagePlacement": 4.364951768488746
+    },
+    "tier2": {
+      "amount": 2900,
+      "playRate": 0.28724247226624405,
+      "averagePlacement": 4.313448275862069
+    },
+    "tier3": {
+      "amount": 2498,
+      "playRate": 0.24742472266244056,
+      "averagePlacement": 3.788230584467574
+    }
+  },
+  {
+    "id": "Set8_Duelist",
+    "tier1": {
+      "amount": 9716,
+      "playRate": 0.9623613312202852,
+      "averagePlacement": 4.280259365994237
+    },
+    "tier2": {
+      "amount": 1156,
+      "playRate": 0.11450079239302693,
+      "averagePlacement": 5.006055363321799
+    },
+    "tier3": {
+      "amount": 2256,
+      "playRate": 0.22345483359746435,
+      "averagePlacement": 4.661790780141844
+    },
+    "tier4": {
+      "amount": 1494,
+      "playRate": 0.14797939778129954,
+      "averagePlacement": 4.062918340026774
+    }
+  },
+  {
+    "id": "Set8_Corrupted",
+    "tier1": {
+      "amount": 19825,
+      "playRate": 1.963648969889065,
+      "averagePlacement": 3.65124842370744
+    }
+  },
+  {
+    "id": "Set8_Defender",
+    "tier1": {
+      "amount": 32106,
+      "playRate": 3.180071315372425,
+      "averagePlacement": 4.208932909736498
+    },
+    "tier2": {
+      "amount": 2426,
+      "playRate": 0.2402931854199683,
+      "averagePlacement": 4.4773289365210225
+    },
+    "tier3": {
+      "amount": 539,
+      "playRate": 0.05338748019017433,
+      "averagePlacement": 4.0686456400742115
+    }
+  },
+  {
+    "id": "Set8_ExoPrime",
+    "tier1": {
+      "amount": 9457,
+      "playRate": 0.9367076069730587,
+      "averagePlacement": 4.586972612879348
+    },
+    "tier2": {
+      "amount": 1139,
+      "playRate": 0.11281695721077654,
+      "averagePlacement": 3.9815627743634767
+    }
+  },
+  {
+    "id": "Set8_Forecaster",
+    "tier1": {
+      "amount": 13254,
+      "playRate": 1.312797147385103,
+      "averagePlacement": 3.7050701674966047
+    }
+  },
+  {
+    "id": "Set8_GenAE",
+    "tier1": {
+      "amount": 1314,
+      "playRate": 0.13015055467511885,
+      "averagePlacement": 5.2085235920852355
+    },
+    "tier2": {
+      "amount": 3241,
+      "playRate": 0.32101822503961963,
+      "averagePlacement": 3.806232644245603
+    }
+  },
+  {
+    "id": "Set8_Deadeye",
+    "tier1": {
+      "amount": 6500,
+      "playRate": 0.6438193343898574,
+      "averagePlacement": 4.625538461538461
+    },
+    "tier2": {
+      "amount": 5955,
+      "playRate": 0.589837559429477,
+      "averagePlacement": 4.07120067170445
+    },
+    "tier3": {
+      "amount": 1806,
+      "playRate": 0.17888272583201267,
+      "averagePlacement": 4.192691029900332
+    },
+    "tier4": {
+      "amount": 485,
+      "playRate": 0.04803882725832013,
+      "averagePlacement": 3.5216494845360824
+    }
+  },
+  {
+    "id": "Set8_Hacker",
+    "tier1": {
+      "amount": 5047,
+      "playRate": 0.49990095087163233,
+      "averagePlacement": 4.49336239350109
+    },
+    "tier2": {
+      "amount": 1005,
+      "playRate": 0.09954437400950872,
+      "averagePlacement": 4.165174129353233
+    },
+    "tier3": {
+      "amount": 93,
+      "playRate": 0.009211568938193344,
+      "averagePlacement": 3.849462365591398
+    }
+  },
+  {
+    "id": "Set8_Heart",
+    "tier1": {
+      "amount": 9165,
+      "playRate": 0.9077852614896988,
+      "averagePlacement": 4.083142389525368
+    },
+    "tier2": {
+      "amount": 1517,
+      "playRate": 0.15025752773375595,
+      "averagePlacement": 4.696110744891232
+    },
+    "tier3": {
+      "amount": 1054,
+      "playRate": 0.10439778129952457,
+      "averagePlacement": 3.8823529411764706
+    }
+  },
+  {
+    "id": "Set8_Channeler",
+    "tier1": {
+      "amount": 15234,
+      "playRate": 1.5089144215530903,
+      "averagePlacement": 4.213995011159249
+    },
+    "tier2": {
+      "amount": 5926,
+      "playRate": 0.5869651347068146,
+      "averagePlacement": 4.265271684103949
+    },
+    "tier3": {
+      "amount": 1581,
+      "playRate": 0.15659667194928684,
+      "averagePlacement": 4.223276407337129
+    },
+    "tier4": {
+      "amount": 139,
+      "playRate": 0.013767828843106181,
+      "averagePlacement": 3.8489208633093526
+    }
+  },
+  {
+    "id": "Set8_Mascot",
+    "tier1": {
+      "amount": 8444,
+      "playRate": 0.8363708399366085,
+      "averagePlacement": 3.74301279014685
+    },
+    "tier2": {
+      "amount": 1158,
+      "playRate": 0.11469889064976228,
+      "averagePlacement": 4.602763385146805
+    },
+    "tier3": {
+      "amount": 1545,
+      "playRate": 0.15303090332805072,
+      "averagePlacement": 4.096440129449838
+    }
+  },
+  {
+    "id": "Set8_OxForce",
+    "tier1": {
+      "amount": 11796,
+      "playRate": 1.1683835182250397,
+      "averagePlacement": 4.224906748050186
+    },
+    "tier2": {
+      "amount": 5948,
+      "playRate": 0.5891442155309033,
+      "averagePlacement": 4.21990585070612
+    },
+    "tier3": {
+      "amount": 574,
+      "playRate": 0.05685419968304279,
+      "averagePlacement": 4.182926829268292
+    }
+  },
+  {
+    "id": "Set8_Brawler",
+    "tier1": {
+      "amount": 11626,
+      "playRate": 1.1515451664025356,
+      "averagePlacement": 4.692499569929469
+    },
+    "tier2": {
+      "amount": 4916,
+      "playRate": 0.4869255150554675,
+      "averagePlacement": 4.311432058584215
+    },
+    "tier3": {
+      "amount": 2426,
+      "playRate": 0.2402931854199683,
+      "averagePlacement": 4.800494641384996
+    },
+    "tier4": {
+      "amount": 842,
+      "playRate": 0.08339936608557845,
+      "averagePlacement": 4.271971496437055
+    }
+  },
+  {
+    "id": "Set8_Prankster",
+    "tier1": {
+      "amount": 4969,
+      "playRate": 0.49217511885895404,
+      "averagePlacement": 4.013684846045482
+    },
+    "tier2": {
+      "amount": 867,
+      "playRate": 0.08587559429477021,
+      "averagePlacement": 3.756632064590542
+    },
+    "tier3": {
+      "amount": 371,
+      "playRate": 0.03674722662440571,
+      "averagePlacement": 3.8005390835579513
+    }
+  },
+  {
+    "id": "Set8_Renegade",
+    "tier1": {
+      "amount": 2691,
+      "playRate": 0.2665412044374009,
+      "averagePlacement": 4.483091787439614
+    },
+    "tier2": {
+      "amount": 1357,
+      "playRate": 0.1344096671949287,
+      "averagePlacement": 4.428887251289609
+    },
+    "tier3": {
+      "amount": 452,
+      "playRate": 0.044770206022187,
+      "averagePlacement": 3.9668141592920354
+    }
+  },
+  {
+    "id": "Set8_SpaceCorps",
+    "tier1": {
+      "amount": 833,
+      "playRate": 0.08250792393026941,
+      "averagePlacement": 5.3385354141656665
+    },
+    "tier2": {
+      "amount": 1738,
+      "playRate": 0.17214738510301109,
+      "averagePlacement": 4.867088607594937
+    },
+    "tier3": {
+      "amount": 2827,
+      "playRate": 0.2800118858954041,
+      "averagePlacement": 4.131941987973116
+    },
+    "tier4": {
+      "amount": 2199,
+      "playRate": 0.21780903328050713,
+      "averagePlacement": 3.4338335607094135
+    }
+  },
+  {
+    "id": "Set8_StarGuardian",
+    "tier1": {
+      "amount": 12565,
+      "playRate": 1.244552297939778,
+      "averagePlacement": 4.094627934739355
+    },
+    "tier2": {
+      "amount": 5667,
+      "playRate": 0.561311410459588,
+      "averagePlacement": 4.238397741309335
+    },
+    "tier3": {
+      "amount": 5441,
+      "playRate": 0.5389263074484945,
+      "averagePlacement": 3.8059180297739386
+    },
+    "tier4": {
+      "amount": 1524,
+      "playRate": 0.15095087163232965,
+      "averagePlacement": 2.6515748031496065
+    }
+  },
+  {
+    "id": "Set8_Supers",
+    "tier1": {
+      "amount": 3852,
+      "playRate": 0.3815372424722662,
+      "averagePlacement": 4.253894080996885
+    }
+  },
+  {
+    "id": "Set8_Threat",
+    "tier1": {
+      "amount": 40947,
+      "playRate": 4.055764659270999,
+      "averagePlacement": 4.130681124380296
+    }
+  },
+  {
+    "id": "Set8_UndergroundThe",
+    "tier1": {
+      "amount": 1621,
+      "playRate": 0.16055863708399365,
+      "averagePlacement": 5.253547193090685
+    },
+    "tier2": {
+      "amount": 359,
+      "playRate": 0.03555863708399366,
+      "averagePlacement": 5.1225626740947074
+    },
+    "tier3": {
+      "amount": 220,
+      "playRate": 0.021790808240887482,
+      "averagePlacement": 6.786363636363636
+    },
+    "tier4": {
+      "amount": 130,
+      "playRate": 0.012876386687797147,
+      "averagePlacement": 7.046153846153846
+    }
+  },
+  {
+    "id": "Set8_Aegis",
+    "tier1": {
+      "amount": 17666,
+      "playRate": 1.7498019017432647,
+      "averagePlacement": 4.161440054341673
+    },
+    "tier2": {
+      "amount": 4560,
+      "playRate": 0.45166402535657685,
+      "averagePlacement": 3.880921052631579
+    },
+    "tier3": {
+      "amount": 981,
+      "playRate": 0.09716719492868463,
+      "averagePlacement": 3.675840978593272
+    },
+    "tier4": {
+      "amount": 106,
+      "playRate": 0.010499207606973059,
+      "averagePlacement": 3.0283018867924527
+    }
+  },
+  {
+    "id": "Set8_Pulsefire",
+    "tier1": {
+      "amount": 3017,
+      "playRate": 0.2988312202852615,
+      "averagePlacement": 4.561816373881339
+    },
+    "tier2": {
+      "amount": 4724,
+      "playRate": 0.4679080824088748,
+      "averagePlacement": 4.334038950042337
+    },
+    "tier3": {
+      "amount": 3276,
+      "playRate": 0.3244849445324881,
+      "averagePlacement": 3.8705738705738706
+    }
+  },
+  {
+    "id": "Set8_Parallel",
+    "tier1": {
+      "amount": 2587,
+      "playRate": 0.2562400950871632,
+      "averagePlacement": 3.789331271743332
+    }
+  },
+  {
+    "id": "Set8_Riftwalker",
+    "tier1": {
+      "amount": 4705,
+      "playRate": 0.4660261489698891,
+      "averagePlacement": 4.283953241232731
+    }
+  },
+  {
+    "id": "Set8_GunMage",
+    "tier1": {
+      "amount": 11992,
+      "playRate": 1.187797147385103,
+      "averagePlacement": 3.993995997331554
+    },
+    "tier2": {
+      "amount": 3078,
+      "playRate": 0.3048732171156894,
+      "averagePlacement": 4.199805068226121
+    },
+    "tier3": {
+      "amount": 2955,
+      "playRate": 0.29269017432646594,
+      "averagePlacement": 4.137394247038917
+    }
+  }
+]

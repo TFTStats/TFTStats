@@ -2,7 +2,7 @@ import json
 from neo4j import GraphDatabase
 from config import neo4j_password
 
-f = open("matchData.json", "r")
+f = open("matchDataEU.json", "r")
 
 data = json.loads(f.read())
 f.close()
@@ -31,7 +31,7 @@ def ingest_tft_match(session, match_data):
     query = '''
     WITH $matchData AS matchData
     MERGE (p:PATCH {patch_Number: matchData.info.game_version})
-    MERGE (s:SERVER {Server_Name :"NA" , patch: matchData.info.game_version})
+    MERGE (s:SERVER {Server_Name :"EUW" , patch: matchData.info.game_version})
     MERGE (p)<-[:ON_THIS_PATCH] -(s)
     MERGE (s)<-[:PLAYED_IN_THIS_SERVER] - (L:LEAGUE {rank_Name: "Challenger"})
     with matchData, L

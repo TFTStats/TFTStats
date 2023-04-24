@@ -1,0 +1,578 @@
+[
+  {
+    "game": { "match_ID": "NA1_4634205163" },
+    "player": {
+      "level": 8,
+      "puuid": "Upzd-jsykv0BUC6GzblzHs0ExvVqUpLQIfDXZHTMXSHE5ukuau34bEymjRRTtjZnsaMOJ0TI-ZlWUQ",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "Upzd-jsykv0BUC6GzblzHs0ExvVqUpLQIfDXZHTMXSHE5ukuau34bEymjRRTtjZnsaMOJ0TI-ZlWUQ",
+      "match_ID": "NA1_4634205163",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "Upzd-jsykv0BUC6GzblzHs0ExvVqUpLQIfDXZHTMXSHE5ukuau34bEymjRRTtjZnsaMOJ0TI-ZlWUQ",
+      "match_ID": "NA1_4634205163",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 255550
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634231345" },
+    "player": {
+      "level": 8,
+      "puuid": "tWyUTGskFDxByErWmjH6fkSh1IYuGrdmWMUD_6fxowO7zVVwHEMqH0ahEK5_qETs0R3LN2Q1yrnpEQ",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "tWyUTGskFDxByErWmjH6fkSh1IYuGrdmWMUD_6fxowO7zVVwHEMqH0ahEK5_qETs0R3LN2Q1yrnpEQ",
+      "match_ID": "NA1_4634231345",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "tWyUTGskFDxByErWmjH6fkSh1IYuGrdmWMUD_6fxowO7zVVwHEMqH0ahEK5_qETs0R3LN2Q1yrnpEQ",
+      "match_ID": "NA1_4634231345",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 245758
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634272247" },
+    "player": {
+      "level": 10,
+      "puuid": "imZLRKeP9Oh2X7SPOn4_Yp-bItsk6wggIh6h8oVdVg62EXCs6QhroxXHkkjIXE-6apOcoErLjL6_kQ",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "imZLRKeP9Oh2X7SPOn4_Yp-bItsk6wggIh6h8oVdVg62EXCs6QhroxXHkkjIXE-6apOcoErLjL6_kQ",
+      "match_ID": "NA1_4634272247",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "imZLRKeP9Oh2X7SPOn4_Yp-bItsk6wggIh6h8oVdVg62EXCs6QhroxXHkkjIXE-6apOcoErLjL6_kQ",
+      "match_ID": "NA1_4634272247",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 229641
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634842851" },
+    "player": {
+      "level": 8,
+      "puuid": "KUdWnMltIbWyNe_bADLEiBazI0kSrM2q9ntrvaECKEti7fST0LvmQJyOanmyGGeGgR0Yzg1rGtXk8Q",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "KUdWnMltIbWyNe_bADLEiBazI0kSrM2q9ntrvaECKEti7fST0LvmQJyOanmyGGeGgR0Yzg1rGtXk8Q",
+      "match_ID": "NA1_4634842851",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "KUdWnMltIbWyNe_bADLEiBazI0kSrM2q9ntrvaECKEti7fST0LvmQJyOanmyGGeGgR0Yzg1rGtXk8Q",
+      "match_ID": "NA1_4634842851",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 229100
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634738160" },
+    "player": {
+      "level": 9,
+      "puuid": "W8ek3fV_2EUjF5sKZm-nrQOyXr6cOJ1g4sQngREpLbfBscxqAcOlFzgewIIHtMTj8mSiMP9-4p8egA",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "W8ek3fV_2EUjF5sKZm-nrQOyXr6cOJ1g4sQngREpLbfBscxqAcOlFzgewIIHtMTj8mSiMP9-4p8egA",
+      "match_ID": "NA1_4634738160",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "W8ek3fV_2EUjF5sKZm-nrQOyXr6cOJ1g4sQngREpLbfBscxqAcOlFzgewIIHtMTj8mSiMP9-4p8egA",
+      "match_ID": "NA1_4634738160",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 220343
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634460037" },
+    "player": {
+      "level": 8,
+      "puuid": "mzL6XoIkLgIOrGmPLuiE6q2Tdq8pZYvoZJ0cbaBysvirGKu8mQKUmkHh0bN-G4GjYW7IIoQ6LlhyIg",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "mzL6XoIkLgIOrGmPLuiE6q2Tdq8pZYvoZJ0cbaBysvirGKu8mQKUmkHh0bN-G4GjYW7IIoQ6LlhyIg",
+      "match_ID": "NA1_4634460037",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "mzL6XoIkLgIOrGmPLuiE6q2Tdq8pZYvoZJ0cbaBysvirGKu8mQKUmkHh0bN-G4GjYW7IIoQ6LlhyIg",
+      "match_ID": "NA1_4634460037",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 200636
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634561157" },
+    "player": {
+      "level": 8,
+      "puuid": "PGdHlTMxITCeJwgqLttXhHCKrCU2lvJmKrT8JRSnZMY1GXp2s_LyyhscMnU6TCyt5PzFwLbjGgW1ag",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "PGdHlTMxITCeJwgqLttXhHCKrCU2lvJmKrT8JRSnZMY1GXp2s_LyyhscMnU6TCyt5PzFwLbjGgW1ag",
+      "match_ID": "NA1_4634561157",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "PGdHlTMxITCeJwgqLttXhHCKrCU2lvJmKrT8JRSnZMY1GXp2s_LyyhscMnU6TCyt5PzFwLbjGgW1ag",
+      "match_ID": "NA1_4634561157",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 180874
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634923992" },
+    "player": {
+      "level": 8,
+      "puuid": "S8yWEJ-S4RTL5ugJ-8yp8QD9AWQc1SiEANN_2Q0VplxHUiVVj-d6Rk1xPe15nxeb84ZYkfCt_Ch_oA",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "S8yWEJ-S4RTL5ugJ-8yp8QD9AWQc1SiEANN_2Q0VplxHUiVVj-d6Rk1xPe15nxeb84ZYkfCt_Ch_oA",
+      "match_ID": "NA1_4634923992",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "S8yWEJ-S4RTL5ugJ-8yp8QD9AWQc1SiEANN_2Q0VplxHUiVVj-d6Rk1xPe15nxeb84ZYkfCt_Ch_oA",
+      "match_ID": "NA1_4634923992",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 157767
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634819741" },
+    "player": {
+      "level": 9,
+      "puuid": "MV2IetD6mEMui6-hOTf8tZoH3vcwxiGzyJ3juRiCs1NYRXKOy1GDtztEw8ygedQ6h4H9-5E36Mmadw",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "MV2IetD6mEMui6-hOTf8tZoH3vcwxiGzyJ3juRiCs1NYRXKOy1GDtztEw8ygedQ6h4H9-5E36Mmadw",
+      "match_ID": "NA1_4634819741",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "MV2IetD6mEMui6-hOTf8tZoH3vcwxiGzyJ3juRiCs1NYRXKOy1GDtztEw8ygedQ6h4H9-5E36Mmadw",
+      "match_ID": "NA1_4634819741",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 154478
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634160934" },
+    "player": {
+      "level": 8,
+      "puuid": "iJHfD0Rx58Ntmj92VrtEuBWbI0zy5bgA7YeYjfnn0INl0li-sPCvGahbW1VrW275Tm0KCkkcyAHY6A",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "iJHfD0Rx58Ntmj92VrtEuBWbI0zy5bgA7YeYjfnn0INl0li-sPCvGahbW1VrW275Tm0KCkkcyAHY6A",
+      "match_ID": "NA1_4634160934",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "iJHfD0Rx58Ntmj92VrtEuBWbI0zy5bgA7YeYjfnn0INl0li-sPCvGahbW1VrW275Tm0KCkkcyAHY6A",
+      "match_ID": "NA1_4634160934",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 149569
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634507876" },
+    "player": {
+      "level": 9,
+      "puuid": "MNzEuFvo9Lf_bt9hIW1ICKoM7C_4Qd9LvsR_Pq6yrPjkgr4eYhQuUO3hUTP5_Zg5BP9fEpAy5VTGGA",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "MNzEuFvo9Lf_bt9hIW1ICKoM7C_4Qd9LvsR_Pq6yrPjkgr4eYhQuUO3hUTP5_Zg5BP9fEpAy5VTGGA",
+      "match_ID": "NA1_4634507876",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "MNzEuFvo9Lf_bt9hIW1ICKoM7C_4Qd9LvsR_Pq6yrPjkgr4eYhQuUO3hUTP5_Zg5BP9fEpAy5VTGGA",
+      "match_ID": "NA1_4634507876",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 147393
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634189273" },
+    "player": {
+      "level": 9,
+      "puuid": "tG9s_0g6yVgvSdAjcC2CIwWFsjKJHgCEKalWZBKBcPmnXQIVBlDGiL0i7M3QgOYF2SIGUTphLMxAjQ",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "tG9s_0g6yVgvSdAjcC2CIwWFsjKJHgCEKalWZBKBcPmnXQIVBlDGiL0i7M3QgOYF2SIGUTphLMxAjQ",
+      "match_ID": "NA1_4634189273",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "tG9s_0g6yVgvSdAjcC2CIwWFsjKJHgCEKalWZBKBcPmnXQIVBlDGiL0i7M3QgOYF2SIGUTphLMxAjQ",
+      "match_ID": "NA1_4634189273",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 136334
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634835198" },
+    "player": {
+      "level": 8,
+      "puuid": "-du4R8RNaVHBE1HfpvXExX_OXyu1rOQewzsBXWqd_MXXqqFNJiLXod7git-4Qm4Fj_udWtT-xBpoDg",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 3,
+      "belongs": "-du4R8RNaVHBE1HfpvXExX_OXyu1rOQewzsBXWqd_MXXqqFNJiLXod7git-4Qm4Fj_udWtT-xBpoDg",
+      "match_ID": "NA1_4634835198",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "-du4R8RNaVHBE1HfpvXExX_OXyu1rOQewzsBXWqd_MXXqqFNJiLXod7git-4Qm4Fj_udWtT-xBpoDg",
+      "match_ID": "NA1_4634835198",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 124872
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634656875" },
+    "player": {
+      "level": 8,
+      "puuid": "oUItADgHm_wPSbZjf00eKs_Ywlxgn4b6DiA3NlIN41RWBh9ksD_QDaOxtfYqUBv1jJGtpTMxJgLGTQ",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 3,
+      "belongs": "oUItADgHm_wPSbZjf00eKs_Ywlxgn4b6DiA3NlIN41RWBh9ksD_QDaOxtfYqUBv1jJGtpTMxJgLGTQ",
+      "match_ID": "NA1_4634656875",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "oUItADgHm_wPSbZjf00eKs_Ywlxgn4b6DiA3NlIN41RWBh9ksD_QDaOxtfYqUBv1jJGtpTMxJgLGTQ",
+      "match_ID": "NA1_4634656875",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 110085
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634183360" },
+    "player": {
+      "level": 9,
+      "puuid": "fEbCbCIfokADsoEh_VGfi7efs6m7-1s-ztIBDyI39VeJGTQumviFUbTTwU0eXMqVNUxjEG885FMH7g",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "fEbCbCIfokADsoEh_VGfi7efs6m7-1s-ztIBDyI39VeJGTQumviFUbTTwU0eXMqVNUxjEG885FMH7g",
+      "match_ID": "NA1_4634183360",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "fEbCbCIfokADsoEh_VGfi7efs6m7-1s-ztIBDyI39VeJGTQumviFUbTTwU0eXMqVNUxjEG885FMH7g",
+      "match_ID": "NA1_4634183360",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 103254
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634612797" },
+    "player": {
+      "level": 9,
+      "puuid": "6Gk7AwD4sn09jaOACxCuHFbOwOADu7Qpg35UYTUswYlTAwywSeqD_JxugAiqrm2TQvBS1B68oYytfQ",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "6Gk7AwD4sn09jaOACxCuHFbOwOADu7Qpg35UYTUswYlTAwywSeqD_JxugAiqrm2TQvBS1B68oYytfQ",
+      "match_ID": "NA1_4634612797",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "6Gk7AwD4sn09jaOACxCuHFbOwOADu7Qpg35UYTUswYlTAwywSeqD_JxugAiqrm2TQvBS1B68oYytfQ",
+      "match_ID": "NA1_4634612797",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 65422
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634587070" },
+    "player": {
+      "level": 8,
+      "puuid": "igXnjoIBX4a-nCDtt6p13_q6Y8ziFKrBTNm7Ose6atiAm30gbk5E27tOSLam32ikkr6CjJ_EU8Emsw",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 3,
+      "belongs": "igXnjoIBX4a-nCDtt6p13_q6Y8ziFKrBTNm7Ose6atiAm30gbk5E27tOSLam32ikkr6CjJ_EU8Emsw",
+      "match_ID": "NA1_4634587070",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "igXnjoIBX4a-nCDtt6p13_q6Y8ziFKrBTNm7Ose6atiAm30gbk5E27tOSLam32ikkr6CjJ_EU8Emsw",
+      "match_ID": "NA1_4634587070",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 57407
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634805958" },
+    "player": {
+      "level": 8,
+      "puuid": "UVFdLJ_ockeqrRdvgXAu0pVaYFxTkcNc_0Y1VtjKmzfu7BZAlE4g5HWbaqnT8y9z5WAaIjmq93AHqQ",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "UVFdLJ_ockeqrRdvgXAu0pVaYFxTkcNc_0Y1VtjKmzfu7BZAlE4g5HWbaqnT8y9z5WAaIjmq93AHqQ",
+      "match_ID": "NA1_4634805958",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "UVFdLJ_ockeqrRdvgXAu0pVaYFxTkcNc_0Y1VtjKmzfu7BZAlE4g5HWbaqnT8y9z5WAaIjmq93AHqQ",
+      "match_ID": "NA1_4634805958",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 44397
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634735379" },
+    "player": {
+      "level": 9,
+      "puuid": "nduLW5pQL2ndKFBpp3N9PXL-kHwuRa-7HSfGGR0BmsqL9euTc3qQs5V3tC_rnZXA9F1804WFSGxWGQ",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "nduLW5pQL2ndKFBpp3N9PXL-kHwuRa-7HSfGGR0BmsqL9euTc3qQs5V3tC_rnZXA9F1804WFSGxWGQ",
+      "match_ID": "NA1_4634735379",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "nduLW5pQL2ndKFBpp3N9PXL-kHwuRa-7HSfGGR0BmsqL9euTc3qQs5V3tC_rnZXA9F1804WFSGxWGQ",
+      "match_ID": "NA1_4634735379",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 3519
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634690150" },
+    "player": {
+      "level": 9,
+      "puuid": "8a1ls4UkLVSg7K45t9kfXxKLi2p-cWcWZMpftOfO7O8dQzfTRbnzzVfCO5GUFArGlEUYfo0-jmufdw",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "8a1ls4UkLVSg7K45t9kfXxKLi2p-cWcWZMpftOfO7O8dQzfTRbnzzVfCO5GUFArGlEUYfo0-jmufdw",
+      "match_ID": "NA1_4634690150",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "8a1ls4UkLVSg7K45t9kfXxKLi2p-cWcWZMpftOfO7O8dQzfTRbnzzVfCO5GUFArGlEUYfo0-jmufdw",
+      "match_ID": "NA1_4634690150",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 3781
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "NA1_4634411822" },
+    "player": {
+      "level": 9,
+      "puuid": "FDhT-tkj3hCTKpTYmNx9Mx-9kNxy4AJlRdi__oC3xk6ZHrj4v_VstotjAM-Z27h54EayeIa9J6q9Cw",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "FDhT-tkj3hCTKpTYmNx9Mx-9kNxy4AJlRdi__oC3xk6ZHrj4v_VstotjAM-Z27h54EayeIa9J6q9Cw",
+      "match_ID": "NA1_4634411822",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "FDhT-tkj3hCTKpTYmNx9Mx-9kNxy4AJlRdi__oC3xk6ZHrj4v_VstotjAM-Z27h54EayeIa9J6q9Cw",
+      "match_ID": "NA1_4634411822",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 8328
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "NA" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "EUW1_6371903037" },
+    "player": {
+      "level": 9,
+      "puuid": "y5SedYf02N6YRMhqIbJIxTrTzO1wVbaGW1BRflm67pBlKUrDaJoECUo8vZILvrJc01CqHFod9KIj8w",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 2,
+      "belongs": "y5SedYf02N6YRMhqIbJIxTrTzO1wVbaGW1BRflm67pBlKUrDaJoECUo8vZILvrJc01CqHFod9KIj8w",
+      "match_ID": "EUW1_6371903037",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "y5SedYf02N6YRMhqIbJIxTrTzO1wVbaGW1BRflm67pBlKUrDaJoECUo8vZILvrJc01CqHFod9KIj8w",
+      "match_ID": "EUW1_6371903037",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 335564
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "EUW" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "EUW1_6373116727" },
+    "player": {
+      "level": 8,
+      "puuid": "MhQATf9MuMPil4UEcF72yJElcKJBBkPHhnP6Y-W22Gv3dPo3QTsyAclzmaSYVX6ijxHzULAuNKikNA",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 3,
+      "belongs": "MhQATf9MuMPil4UEcF72yJElcKJBBkPHhnP6Y-W22Gv3dPo3QTsyAclzmaSYVX6ijxHzULAuNKikNA",
+      "match_ID": "EUW1_6373116727",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "MhQATf9MuMPil4UEcF72yJElcKJBBkPHhnP6Y-W22Gv3dPo3QTsyAclzmaSYVX6ijxHzULAuNKikNA",
+      "match_ID": "EUW1_6373116727",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 333908
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "EUW" },
+    "patch": { "patch_Number": "Version 13.8" }
+  },
+  {
+    "game": { "match_ID": "EUW1_6372647344" },
+    "player": {
+      "level": 8,
+      "puuid": "2pu2fchgpsF9jKF7lYWjg3LcuSsInktWGVdOc4kaVshhEifc_fepbI-93BntISp3uEy7qTX2peCEJg",
+      "placement": 1
+    },
+    "champion": {
+      "tier": 3,
+      "belongs": "2pu2fchgpsF9jKF7lYWjg3LcuSsInktWGVdOc4kaVshhEifc_fepbI-93BntISp3uEy7qTX2peCEJg",
+      "match_ID": "EUW1_6372647344",
+      "character_ID": "TFT8_AurelionSol",
+      "rarity": 4
+    },
+    "item": {
+      "belongs": "2pu2fchgpsF9jKF7lYWjg3LcuSsInktWGVdOc4kaVshhEifc_fepbI-93BntISp3uEy7qTX2peCEJg",
+      "match_ID": "EUW1_6372647344",
+      "item_Name": "TFT_Item_HextechGunblade",
+      "champion_ID": 292778
+    },
+    "league": { "rank_Name": "Challenger" },
+    "server": { "patch": "Version 13.8", "Server_Name": "EUW" },
+    "patch": { "patch_Number": "Version 13.8" }
+  }
+]
