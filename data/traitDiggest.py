@@ -1,5 +1,5 @@
 import json
-from neo4j import GraphDatabase
+from neo4j import GraphDatabase, Session
 from config import neo4j_password
 
 f = open('./tft-data/tft-trait.json', 'r')
@@ -17,14 +17,14 @@ password = neo4j_password
 driver = GraphDatabase.driver(uri, auth=(user, password))    
 
 
-def getAmountOfMatches (session):
+def getAmountOfMatches (session:Session):
     query = '''
     match (m:Game) return m
     '''
     result = session.run(query)
     return result
 
-def getTraitStats(session, traitID):
+def getTraitStats(session:Session, traitID:str):
     query = '''
     with $traitID as traitID
     MATCH (game:Game) <-[:PLAYED_IN_THIS_MATCH]- (player:PLAYER) - [:HAS_THIS_CHAMPION] -> (champion:CHAMPION) ,(player:PLAYER) - [:HAS_THIS_TRAIT] -> (trait:TRAIT)    

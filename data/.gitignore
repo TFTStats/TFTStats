@@ -1,3 +1,5 @@
 config.py
-/matchData
-/matchID
+# /matchData
+# /matchID
+# /nodetest
+# /kafka
