@@ -12,7 +12,7 @@ reqCount = 0
 session = requests.Session()
 session.headers.update({"X-Riot-Token": riot_api_key})
 # calls riot api with a url and returns the json response
-def apiCall(url: str):
+def  apiCall(url: str):
     global reqCount
     reqCount += 1
     print("request count: " + str(reqCount))

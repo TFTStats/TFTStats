@@ -1,0 +1,10 @@
+// import { Queue } from "./queue";
+// import axios from "axios";
+// const test = new Queue();
+// test.send("Hello");
+// test.send("World");
+// console.log(axios.get("https://jsonplaceholder.typicode.com/todos/1"));
+// console.log(test.receive());
+// console.log(test.receive());
+import test from "./test.js";
+test();
